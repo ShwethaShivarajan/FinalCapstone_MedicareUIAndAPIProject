@@ -16,7 +16,7 @@ public class Hooks {
 		
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("http://localhost:8080/medicare/");
+		driver.get("http://localhost:8081/medicare/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
 	}
